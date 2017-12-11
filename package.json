@@ -1,0 +1,33 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "NodeJS API para nuestra aplicacion REACTJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unaexpresion/nodeapi.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "reactjs",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Carlos Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unaexpresion/nodeapi/issues"
+  },
+  "homepage": "https://github.com/unaexpresion/nodeapi#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  }
+}
